@@ -1,0 +1,22 @@
+{
+  "name": "snatchapi",
+  "version": "0.0.1",
+  "description": "A backend application for registering a user",
+  "main": "server/server.js",
+  "author": "Stefan Avanessian",
+  "dependencies": {
+    "body-parser": "1.15.2",
+    "express": "4.14.0",
+    "helmet": "^3.9.0",
+    "lodash": "^4.17.4",
+    "method-override": "2.3.6",
+    "regex": "^0.1.1",
+    "simple-node-logger": "^0.93.33"
+  },
+  "engines": {
+    "node": "^8.9.3"
+  },
+  "scripts": {
+    "start": "node server/server.js"
+  }
+}
